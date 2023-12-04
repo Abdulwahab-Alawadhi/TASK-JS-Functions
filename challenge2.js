@@ -53,4 +53,11 @@ console.log(oddsSmallerThan(7));
  * squareOrDouble(16) -> 32
  * squareOrDouble(9) -> 81
  */
-function squareOrDouble(n) {}
+function squareOrDouble(n) {
+  if (n % 2 == 1) {
+    return n * n;
+  } else {
+    return n * 2;
+  }
+}
+console.log(squareOrDouble(8));
